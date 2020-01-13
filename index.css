@@ -2,7 +2,8 @@
      width: 100%;   
      border-bottom: 0.2vmin solid #f1f1f1;
      box-shadow: 0.5vmin 0.5vmin 1vmin 0.5vmin #e5e5e5;
-     padding: 1vmin 0 1vmin 0;
+     padding: 1vmin 0 2vmin 0;
+     background-color: black;
 }
 
 
@@ -99,9 +100,10 @@ input[type=text]:focus {
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 992px) {
         .navi {
                 width: 100%;   
+                background-color: black;
                 border-bottom: 0.2vmin solid #f1f1f1;
                 box-shadow: 0.5vmin 0.5vmin 1vmin 0.5vmin #e5e5e5;
                 padding: 1vmin 0 1vmin 0;
