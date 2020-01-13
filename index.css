@@ -1,0 +1,97 @@
+.navi {
+     width: 100%;   
+     border-bottom: 0.2vmin solid #f1f1f1;
+     box-shadow: 0.5vmin 0.5vmin 1vmin 0.5vmin #e5e5e5;
+     padding: 1vmin 0 1vmin 0;
+}
+
+
+img {
+        margin: 3vmin;
+}
+
+.results {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: none;
+        margin-top: 5%;
+}
+
+i {
+        display: inline-block;
+        position: relative;
+        font-size: 5vmin;
+        right: 15vmin;
+        width: 10%;
+        padding: 4vmin;
+}
+
+
+.loading {
+        width: 21%;
+        margin: 0 auto;
+        margin-top: 20%;
+        display: none;
+}
+
+
+.box {
+        width: 5vmin;
+        height: 5vmin;
+        background-color: red;
+        display: inline-block;
+}
+
+.box2 {
+        width: 5vmin;
+        height: 5vmin;
+        background-color: blue;
+        display: inline-block;
+}
+
+.box3 {
+        width: 5vmin;
+        height: 5vmin;
+        background-color: black;
+        display: inline-block;
+}
+
+.box4 {
+        width: 5vmin;
+        height: 5vmin;
+        background-color: green;
+        display: inline-block;
+}
+
+.center {
+        width: 60%;
+        margin: 0 auto;
+}
+
+input[type=text] {
+        height: 10vmin;
+        border: none;
+        width: 85%;
+        
+        font-size: 5vmin;
+        border: 0.2vmin solid #cccccc;
+        transition-duration: 400ms;
+        outline: none;
+        font-weight: bold;
+        padding: 2%;
+        box-sizing: border-box;
+}
+
+
+input[type=text]::placeholder {
+        font-weight: bold;
+        margin-left: 2%;
+}
+
+
+input[type=text]:focus {
+        border: 0.1em solid green;
+        /* box-shadow: 0em 0em 0.75em 0.01em gray; */
+        transition-duration: 400ms;
+        outline: none;
+}
